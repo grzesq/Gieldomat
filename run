@@ -110,7 +110,6 @@ cp "$TMP"/DOMDEV.txt     "$PL"/. # Dom Development
 cp "$TMP"/DREWEX.txt     "$PL"/. # Drewex
 cp "$TMP"/DROP.txt       "$PL"/. # Drop
 cp "$TMP"/DROZAPOL.txt   "$PL"/. # Drozapol-Profil
-cp "$TMP"/DUDA.txt       "$PL"/. # Polski Koncern Miesny Duda
 cp "$TMP"/ECHO.txt       "$PL"/. # Echo Investment
 cp "$TMP"/EDINVEST.txt   "$PL"/. # ED Invest
 cp "$TMP"/EFEKT.txt      "$PL"/. # Korporacja Gospodarcza Efekt
@@ -155,8 +154,6 @@ cp "$TMP"/GINOROSSI.txt  "$PL"/. # Gino Rossi
 cp "$TMP"/GLCOSMED.txt   "$PL"/. # Global Cosmed
 cp "$TMP"/GORENJE.txt    "$PL"/. # Gorenje gospodinjski aparati d.d.
 cp "$TMP"/GPW.txt        "$PL"/. # Gielda Papierow Wartosciowych w Warszawie
-cp "$TMP"/GRAAL.txt      "$PL"/. # Graal
-cp "$TMP"/GRAJEWO.txt    "$PL"/. # Pfleiderer Grajewo
 cp "$TMP"/GRAVITON.txt   "$PL"/. # Graviton Capital
 cp "$TMP"/GROCLIN.txt    "$PL"/. # Groclin
 cp "$TMP"/GRODNO.txt     "$PL"/. # Grodno
@@ -192,7 +189,6 @@ cp "$TMP"/INTERSPPL.txt  "$PL"/. # Intersport  Polska
 cp "$TMP"/INTROL.txt     "$PL"/. # Introl
 cp "$TMP"/INVISTA.txt    "$PL"/. # Invista
 cp "$TMP"/IPOPEMA.txt    "$PL"/. # Ipopema Securities
-cp "$TMP"/IQP.txt        "$PL"/. # IQ Partners
 cp "$TMP"/IZOBLOK.txt    "$PL"/. # Izo-Blok
 cp "$TMP"/IZOLACJA.txt   "$PL"/. # Izolacja Jarocin
 cp "$TMP"/IZOSTAL.txt    "$PL"/. # Izostal
@@ -250,7 +246,6 @@ cp "$TMP"/MILKILAND.txt  "$PL"/. # Milkiland NV
 cp "$TMP"/MILLENNIUM.txt "$PL"/. # Bank Millennium
 cp "$TMP"/MIRACULUM.txt  "$PL"/. # Miraculum
 cp "$TMP"/MIRBUD.txt     "$PL"/. # Mirbud
-cp "$TMP"/MNI.txt        "$PL"/. # MNI
 cp "$TMP"/MOL.txt        "$PL"/. # MOL Magyar Olaj
 cp "$TMP"/MONNARI.txt    "$PL"/. # Monnari Trade
 cp "$TMP"/MOSTALPLC.txt  "$PL"/. # MOSTOSTAL Plock
@@ -282,7 +277,6 @@ cp "$TMP"/PAMAPOL.txt    "$PL"/. # Pamapol
 cp "$TMP"/PANOVA.txt     "$PL"/. # P.A. Nova
 cp "$TMP"/PBG.txt        "$PL"/. # PBG
 cp "$TMP"/PBSFINANSE.txt "$PL"/. # PBS Finanse
-cp "$TMP"/PEKAES.txt     "$PL"/. # PEKAES
 cp "$TMP"/PEKAO.txt      "$PL"/. # Bank Polska Kasa Opieki
 cp "$TMP"/PELION.txt     "$PL"/. # Pelion
 cp "$TMP"/PEP.txt        "$PL"/. # Polenergia
@@ -305,7 +299,6 @@ cp "$TMP"/POLNORD.txt    "$PL"/. # Polnord
 cp "$TMP"/POZBUD.txt     "$PL"/. # Pozbud T&R
 cp "$TMP"/PRAGMAFA.txt   "$PL"/. # Pragma Faktoring
 cp "$TMP"/PRAGMAINK.txt  "$PL"/. # Pragma Inkaso
-cp "$TMP"/PRESCO.txt     "$PL"/. # P.R.E.S.C.O. Group
 cp "$TMP"/PRIMAMODA.txt  "$PL"/. # Prima Moda
 cp "$TMP"/PROCAD.txt     "$PL"/. # Procad
 cp "$TMP"/PROCHEM.txt    "$PL"/. # Prochem
@@ -393,9 +386,10 @@ cp "$TMP"/WDX.txt        "$PL"/. # WDX
 cp "$TMP"/WIELTON.txt    "$PL"/. # Wielton
 
 echo "Python"
-./dane_BOSSA.py
-./gieldomat.py
+#./dane_BOSSA.py
+#./gieldomat.py
+./ichi.py
 
 rm "$TMP"/*
 
-less out/raport.txt
+#less out/raport.txt
